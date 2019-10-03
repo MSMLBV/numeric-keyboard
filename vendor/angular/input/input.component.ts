@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, AfterViewInit, AfterViewChecked,
   ElementRef, ApplicationRef, ComponentFactoryResolver, Injector, EmbeddedViewRef } from '@angular/core'
-import { coerceBooleanProperty } from 'lib/utils/attribute.js'
-import { Options, Mixins } from 'lib/input'
+import { coerceBooleanProperty } from '../../../lib/utils/attribute.js'
+import { Options, Mixins } from '../../../lib/input'
 import { NumericKeyboard } from '../keyboard/keyboard.component'
 
 const template = `

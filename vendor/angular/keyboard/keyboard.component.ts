@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output, OnInit, OnDestroy } from '@angular/core'
-import { Options, Mixins } from 'lib/keyboard'
-import { ENTER } from 'lib/keys.js'
+import { Options, Mixins } from '../../../lib/keyboard'
+import { ENTER } from '../../../lib/keys.js'
 
 const template = `
 <table class="numeric-keyboard">
